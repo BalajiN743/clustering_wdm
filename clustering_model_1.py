@@ -9,7 +9,6 @@ import pickle
 import numpy as np
 import pandas as pd
 import streamlit as st
-from sklearn.preprocessing import StandardScaler
 
 with open('trained_model_clustering.pkl', 'rb') as f:
     model = pickle.load(f)
